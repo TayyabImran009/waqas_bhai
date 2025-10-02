@@ -1,0 +1,404 @@
+:root {
+    --primary-color: #293734;
+    --white: #ffffff;
+    --red: #e61d2f;
+    --purple: #332049;
+    --light-gray: #707070;
+    --theme-footer-background: #1e2124;
+    --theme-dark-color: #181a1d;
+  }
+.our-services-page .main-banner {
+    background-image: url(../assets/images/png/our-services.jpg);
+}
+
+.news-letter-one {
+    text-align: center;
+    padding: 50px 0 100px;
+  }
+  .news-letter-one-content {
+    padding-inline: 15px;
+  }
+  .news-letter-one-content p {
+    font-size: 20px;
+    font-weight: 300 !important;
+    color: var(--primary-color);
+    margin-bottom: 35px !important;
+    line-height: 35px;
+    margin: 0;
+  }
+.our-services-sections {
+    margin-bottom: 120px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+ }
+ .grid-container .services-section {
+  margin-top: 0;
+  flex-direction: column-reverse;
+  justify-content: flex-end !important;
+  gap: 24px;
+ }
+ .grid-container .services-section .services-block {
+  width: 100%;
+ }
+.our-services-sections .services-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+.services-block .service-title {
+    letter-spacing: 5.1px;
+    color: var(--red);
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 41px;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.services-block .services-included {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.services-block .services-included li {
+    margin-bottom: 20px;
+    color: var(--primary-color);
+}
+.services-block .services-included li a {
+    display: flex;
+    align-items: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.services-block .services-included li img {
+    transition: 0.3s ease-in-out;
+    position: relative;
+    top: -3px;
+
+}
+.services-block .services-included li a:hover {
+    color: var(--light-gray);
+}
+
+.services-block .service-image-container {
+    width: 100%;
+}
+.services-block .service-image-container img {
+    max-width: 100%;
+    width: 100%;
+}
+.cosultation-section {
+    background-image: url(../assets/images/png/service-cosultation.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 240px 0 260px;
+    width: 100%;
+    margin-bottom: 32px;
+    position: relative;
+    z-index: 1;
+}
+.cosultation-section .cosultation-title {
+    max-width: 715px;
+    width: 100%;
+    margin-inline: auto;
+    text-align: center;
+}
+.cosultation-section .cosultation-title h2 {
+    color: var(--white);
+    margin-top: 0;
+    margin-bottom: 100px;
+    font-weight: 300 !important;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 5.1px;
+}
+
+/* Security Guard Service page */
+.security-guard-page .main-banner {
+    background-image: url(../assets/images/png/corporate-securitty.webp) !important;
+}
+.security-guard-page .construction-banner {
+    background-image: url(../assets/images/png/construction-site-security-services.webp) !important;
+}
+.security-guard-page .retail-shopping-centre-banner {
+  background-image: url(../assets/images/png/Retail-security.jpg) !important;
+}
+.security-guard-page  .mobile-patrol-response-banner {
+  background-image: url(../assets/images/png/Mobile-and-patrol-security.jpg) !important;
+}
+.security-guard-page .front-of-house-banner {
+  background-image: url(../assets/images/png/Frontofhouse.jpg) !important;
+}
+.security-guard-page .residential-banner {
+  background-image: url(../assets/images/png/Residential.jpg) !important;
+}
+.security-guard-page .close-protection-banner {
+  background-image: url(../assets/images/png/close-security.jpg) !important;
+}
+.security-guard-page .public-sector-banner {
+  background-image: url(../assets/images/png/Public-security.jpg) !important;
+}
+.security-guard-page .wakin-watch-service {
+  background-image: url(../assets/images/png/walking-services.webp) !important;
+}
+.security-guard-page .hotel-hospitality {
+  background-image: url(../assets/images/png/hotel%26hospitality.jpg) !important;
+}
+.security-guard-page .corporate-security {
+  background-image: url(../assets/images/png/corporate-security.jpg) !important;
+}
+.security-guard-page .main-banner-title {
+    top: unset !important;
+    bottom: 0 !important;
+    width: unset !important;
+}
+
+/* Grid Section From Home Page */
+
+.grid-sections {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .grid-sections .grid-item {
+    width: 100%;
+    text-align: center;
+  }
+  .grid-item .grid-img-section {
+    width: 100%;
+  }
+  .grid-img-section img {
+    max-width: 100%;
+    width: 100%;
+  }
+  .grid-item .grid-details-content {
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300 !important;
+    color: var(--primary-color) !important;
+  }
+  .grid-details-content .grid-link {
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: 300 !important;
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    text-align: left;
+    margin: 0;
+  }
+  .content-with-border-section {
+    margin: 110px 0 80px;
+    padding-inline: 15px;
+  }
+  .content-with-border-section .section-container {
+    border-left: 2px solid var(--red);
+    border-right: 2px solid var(--red);
+  }
+  .content-with-border-section .border-section-details {
+    width: 83%;
+    margin-inline: auto;
+  }
+  .border-section-details h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 4.42px;
+    line-height: 46px;
+    font-weight: normal;
+    color: var(--primary-color);
+  }
+  /* Related Section CSS */
+  .related-services {
+    padding: 75px 0 0px;
+  }
+  .related-services .related-title {
+    color: var(--primary-color);
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 94px;
+    font-size: 30px;
+    line-height: 1.5;
+    letter-spacing: 5.1px;
+  }
+  .related-services .related-services-container {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+  }
+  .related-services-container .services-card {
+    width: 33%;
+  }
+  .related-services-container .services-card a {
+    width: 100%;
+    text-decoration: none;
+  }
+  .related-services-container .services-card a img {
+    max-width: 100%;
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+  }
+  .related-services-container .services-card a p {
+    color: var(--primary-color);
+    margin: 28px 0 20px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .services-detail-section {
+    text-align: left;
+    padding-top: 50px;
+  }
+  .services-detail-section p{
+    font-size: 18px;
+    color: var(--primary-color);
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+  @media (min-width: 768px) {
+    .services-block .services-included li a:hover img {
+        transform: translateX(6px);
+    }
+  }
+
+@media (max-width: 1023px) {
+  .news-letter-one-content p {
+      margin-bottom: 18px;
+  }
+  .our-services-sections {
+      margin-bottom: 50px;
+  }
+  .services-block .service-title {
+      font-size: 20px;
+  }
+  .services-block .services-included li {
+      margin-bottom: 15px;
+  }
+  .services-block .services-included li a {
+      font-size: 14px;
+  }
+  .cosultation-section {
+      padding: 80px 0;
+  }
+  .cosultation-section .cosultation-title h2 {
+      font-size: 20px;
+  }
+  .content-with-border-section {
+    margin: 70px 0 60px;
+  }
+  .content-with-border-section .border-section-details {
+    width: 100%;
+  }
+  .border-section-details h2 {
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .related-services .related-title {
+    font-size: 20px;
+  }
+  .grid-details-content .grid-link {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}
+@media (max-width: 767px) {
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
+  .our-services-sections .services-section {
+      flex-direction: column-reverse;
+  }
+  .services-section .services-block {
+      width: 100%;
+  }
+  .services-block .service-title {
+      margin-bottom: 20px;
+  }
+  .services-block .services-included li {
+      max-width: 100%;
+  }
+  .services-block .services-included li a {
+      justify-content: space-between;
+  }
+  .cosultation-section .cosultation-title h2 {
+      margin-bottom: 50px;
+  }
+
+  .grid-sections {
+      margin: 0;
+      flex-wrap: wrap;
+  }
+  .grid-sections .grid-item {
+    width: 100%;
+    text-align: center;
+  }
+  .related-services .related-services-container { 
+    flex-wrap: wrap;
+  }
+  .related-services-container .services-card {
+    width: 60%;
+    margin-inline: auto;
+  }
+  .grid-details-content .grid-link {
+    text-align: center;
+    margin-inline: auto;
+  }
+}
+@media (max-width: 576px) {
+    .news-letter-one {
+        padding: 20px 0 40px;
+    }
+    .news-letter-one-content {
+        padding-inline: 0;
+    }
+    .news-letter-one-content p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .services-block .service-title {
+        font-size: 16px;
+        margin-bottom: 16px;
+    }
+    .cosultation-section {
+        padding: 50px 0px;
+    }
+    .cosultation-section .cosultation-title h2 {
+        font-size: 16px;
+    }
+    .content-with-border-section {
+        margin: 40px 0 20px;
+        padding-inline: 0;
+    }
+    .content-with-border-section .section-container {
+        border: none;
+    }
+    .border-section-details h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .related-services {
+        padding: 8px 0 0px;
+    }
+    .related-services .related-title {
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+    .related-services-container .services-card {
+        width: 100%;
+    }
+}

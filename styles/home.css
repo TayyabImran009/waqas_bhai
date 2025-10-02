@@ -1,0 +1,389 @@
+
+.main-wrapper .main-banner {
+  background-image: url(../assets/images/png/landing-page-banner.jpg);
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.main-banner .main-banner-title {
+  min-width: 230px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+}
+.main-banner .main-banner-title h1 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  line-height: 1.5;
+  margin-bottom: 20px;
+  margin-top: 0;
+  letter-spacing: 5.1px;
+}
+.main-banner .btn-scroll {
+  padding-top: 60px;
+  text-decoration: none;
+}
+.main-banner .btn-scroll span {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 2px solid var(--white);
+  border-bottom: 2px solid var(--white);
+  box-sizing: border-box;
+  transform: rotate(-45deg);
+  animation: scroll-down-animation 2s infinite;
+}
+
+@keyframes scroll-down-animation {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
+
+.news-letter-one {
+  text-align: center;
+  padding: 50px 0 80px;
+}
+.news-letter-one-content {
+  padding-inline: 15px;
+}
+.news-letter-one-content p {
+  font-size: 20px;
+  font-weight: 300 !important;
+  color: var(--primary-color);
+  line-height: 35px;
+  margin: 0;
+}
+
+ .grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+ }
+ .grid-container .grid-sections {
+  margin-top: 0;
+  flex-direction: column;
+  gap: 24px;
+ }
+ .grid-container .grid-sections .grid-item {
+  width: 100%;
+ }
+.grid-sections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -90px;
+}
+.grid-sections:first-child {
+  margin-top: 0px;
+}
+.grid-sections .grid-item {
+  width: 50%;
+  text-align: center;
+}
+.grid-item .grid-img-section {
+  width: 100%;
+  max-width: 537px;
+  height: 360px;
+}
+.grid-img-section img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-item .grid-details-content {
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 300 !important;
+  color: var(--primary-color) !important;
+}
+.grid-details-content .grid-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 28px;
+  font-size: 18px;
+  font-weight: 300 !important;
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  max-width: 450px;
+  margin-inline: auto;
+}
+.grid-details-content .grid-link:hover {
+  color: #707077;
+}
+.grid-details-content .grid-link img {
+  max-width: 100%;
+  transition: 0.5s ease-in-out;
+}
+.grid-details-content .grid-link:hover img {
+  transform: translateX(6px);
+}
+.grid-item .grid-item-btn {
+  /* margin-top: 22px; */
+  text-align: center;
+}
+
+.content-with-border-section {
+  margin: 110px 0 80px;
+  padding-inline: 15px;
+}
+.content-with-border-section .section-container {
+  border-left: 2px solid var(--red);
+  border-right: 2px solid var(--red);
+}
+.content-with-border-section .border-section-details {
+  width: 83%;
+  margin-inline: auto;
+}
+.border-section-details h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 26px;
+  letter-spacing: 4.42px;
+  line-height: 46px;
+  font-weight: normal;
+  color: var(--primary-color);
+}
+.our-services-section {
+  padding: 36px 0 80px;
+  text-align: center;
+}
+.our-services-section .our-services-title {
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 34px;
+  letter-spacing: 5.1px;
+  line-height: 45px;
+  color: var(--primary-color);
+  margin-top: 0;
+}
+.our-services-section .our-services-description {
+  font-size: 20px;
+  font-weight: 300 !important;
+  color: var(--primary-color);
+  margin-bottom: 35px !important;
+  line-height: 35px;
+  margin-top: 0;
+}
+/* .our-services-section .services-grid-container {
+  margin-top: 100px;
+} */
+.journal-section {
+  margin: 15px 0 90px;
+}
+.journal-section .journal-heading {
+  color: var(--primary-color);
+  font-size: 30px;
+  line-height: normal !important;
+  font-weight: 400;
+}
+.journal-section .descripton {
+  font-size: 18px;
+  color: var(--primary-color);
+  line-height: 1.5;
+  margin-block: 24px;
+}
+.journal-section .why-choose-list {
+  list-style: disc;
+  padding-left: 40px;
+  margin: 0;
+}
+.journal-section .why-choose-list li {
+  margin-bottom: 16px;
+}
+.journal-section .why-choose-list li p {
+  font-size: 18px;
+  color: var(--primary-color);
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 1280px) {
+  .grid-sections {
+    margin-top: -65px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .main-banner .main-banner-title {
+    top: 220px;
+  }
+  .main-banner .main-banner-title h1 {
+    font-size: 20px;
+  }
+  .main-banner .main-banner-title h1 br {
+    display: none;
+  }
+  .news-letter-one {
+    padding: 40px 0 80px;
+  }
+  .journal-section .descripton {
+    font-size: 18px;
+  }
+  .grid-details-content .grid-link {
+    font-size: 14px;
+  }
+  .content-with-border-section {
+    margin: 70px 0 60px;
+  }
+  .content-with-border-section .border-section-details {
+    width: 100%;
+  }
+  .border-section-details h2 {
+    font-size: 18px;
+    line-height: 36px;
+  }
+  .our-services-section {
+    padding: 40px 0;
+  }
+  /* .our-services-section .services-grid-container {
+    margin-top: 80px;
+  } */
+  .our-services-section .our-services-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .our-services-section .our-services-description {
+    margin-bottom: 18px;
+  }
+  .journal-section {
+    margin: 0px 0 40px;
+  }
+  .journal-section .journal-heading {
+    font-size: 20px;
+  }
+  .card-body .card-title {
+    font-size: 16px;
+    letter-spacing: 2.06px;
+  }
+}
+@media (max-width: 767px) {
+  .grid-container{
+    grid-template-columns: 1fr;
+  }
+  /* .grid-container .grid-sections {
+    gap: 0;
+  } */
+  .grid-sections {
+    margin: 0;
+    flex-wrap: wrap;
+  }
+  .grid-sections .grid-item {
+    width: 100%;
+    text-align: center;
+  }
+  .grid-item .grid-img-section {
+    max-width: 580px;
+    height: 320px;
+    margin-inline: auto;
+  }
+  .grid-item .grid-details-content {
+    margin-top: 24px;
+  }
+  .our-services-section .our-services-description br {
+    display: none;
+  }
+  .journal-section .journals-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .journals-container .journal-card {
+    width: 60%;
+    text-align: center;
+  }
+  .journal-card .journal-read-more {
+    margin-inline: auto;
+  }
+  .journal-section .journal-btn {
+    margin-top: 40px;
+  }
+  .journal-section .why-choose-list {
+    padding-left: 28px;
+  }
+  
+}
+@media (max-width: 576px) {
+ 
+  .news-letter-one {
+    padding: 20px 0 40px;
+  }
+  .news-letter-one-content {
+    padding-inline: 0;
+  }
+  .news-letter-one-content p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .grid-details-content .grid-link {
+    justify-content: space-between;
+  }
+  .grid-details-content .grid-link:hover img {
+    transform: translateX(0);
+  }
+  .content-with-border-section {
+    margin: 40px 0 20px;
+  }
+  .content-with-border-section .section-container {
+    border: none;
+  }
+  
+  .border-section-details h2 {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .content-with-border-section {
+    padding-inline: 0;
+  }
+  .our-services-section {
+    padding: 20px 0 40px;
+  }
+  /* .our-services-section .services-grid-container {
+    margin-top: 40px;
+  } */
+  .our-services-section .our-services-title {
+    font-size: 16px;
+    letter-spacing: 2.1px;
+    line-height: 25px !important;
+  }
+  .our-services-section .our-services-description {
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .journal-section .journal-heading {
+    font-size: 16px;
+  }
+  .journal-section .descripton {
+    font-size: 14px;
+  }
+  .journal-section .why-choose-list {
+    padding-left: 20px;
+  }
+  .journal-section .why-choose-list li p {
+    font-size: 14px;
+  }
+}

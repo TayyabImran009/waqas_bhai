@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #293734;
+    --white: #ffffff;
+    --red: #e61d2f;
+    --purple: #332049;
+    --light-gray: #707070;
+    --theme-footer-background: #1e2124;
+    --theme-dark-color: #181a1d;
+  }
+
+.our-accreditations-page .main-banner {
+    background-image: url(../assets/images/png/accreditations-banner.jpg);
+}
+.our-accreditations-page .main-banner-title {
+    top: unset !important;
+    width: unset !important;
+    bottom: 0 !important;
+}
+
+.our-accreditations-decription {
+    padding: 100px 0 60px;
+    text-align: center;
+}
+.our-accreditations-decription p {
+    font-size: 18px;
+    color: var(--primary-color);
+    line-height: 1.5;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.our-accreditations-decription .accreditations-heading {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    letter-spacing: 5.1px;
+    color: var(--primary-color);
+}
+.our-accreditations-decription .accred-box {
+    display: flex;
+    gap: 24px;
+    width: 100%;
+    margin: 40px auto;
+    font-weight: 500;
+    border: 1px solid #cfcfcf;
+    padding: 20px;
+    min-height: 200px;
+    box-sizing: border-box;
+}
+.accred-box .accred-logo {
+    width: 20%;
+}
+.accred-box .accred-logo .accred-link {
+    max-width: 150px;
+    margin-inline: auto;
+    display: block;
+}
+.accred-box .accred-logo .accred-link img {
+    width: 100%;
+}
+.accred-box .accred-detail {
+    width: 80%;
+    text-align: left;
+}
+.accred-box .accred-detail h3 {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.25;
+    color: #000;
+}
+.accred-box .accred-detail p {
+    color: #000;
+    font-size: 17px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 1023px) {
+    .our-accreditations-decription {
+        padding-block: 80px;
+    }
+    .our-accreditations-decription .accreditations-heading { 
+        font-size: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .our-accreditations-decription {
+        padding-block: 60px;
+    }
+    .our-accreditations-decription .accred-box {
+        flex-wrap: wrap;
+    }
+    .accred-box .accred-logo,
+    .accred-box .accred-detail {
+        width: 100%;
+    }
+    .accred-box .accred-logo .accred-link {
+        margin: unset;
+    }
+}
+@media (max-width: 576px) {
+    .our-accreditations-decription {
+        padding-block: 40px;
+    }
+    .our-accreditations-decription .accreditations-heading { 
+        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+    .our-accreditations-decription p {
+        font-size: 14px;
+    }
+    .accred-box .accred-detail h3 {
+        font-size: 20px;
+    }
+    .accred-box .accred-detail p {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+}
